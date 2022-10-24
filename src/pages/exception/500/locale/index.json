@@ -1,0 +1,8 @@
+{
+  "en-US": {
+    "exception.result.500.description": "An exception occurred in system. Please try again later."
+  },
+  "zh-CN": {
+    "exception.result.500.description": "系统出现异常，请稍后再试"
+  }
+}

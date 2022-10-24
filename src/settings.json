@@ -1,0 +1,9 @@
+{
+  "header": true,
+  "tabbar": true,
+  "navbar": true,
+  "footer": true,
+  "keepalive": true,
+  "siderWidth": 220,
+  "home": "/exampleHome"
+}

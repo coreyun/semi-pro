@@ -1,0 +1,8 @@
+**/*.ts
+**/*.tsx
+**/*.jsx
+**/*.js
+**/*.css
+node_modules
+public
+.theme

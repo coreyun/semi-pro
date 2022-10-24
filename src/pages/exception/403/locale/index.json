@@ -1,0 +1,8 @@
+{
+  "en-US": {
+    "exception.result.403.description": "No access right, please check account."
+  },
+  "zh-CN": {
+    "exception.result.403.description": "暂无访问权限，请检查账号"
+  }
+}

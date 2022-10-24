@@ -1,0 +1,33 @@
+body,
+body[theme-mode='dark'] .semi-always-light {
+  .header,
+  .footer {
+    position: relative;
+    background-color: rgba(var(--semi-white), 0.5) !important;
+    backdrop-filter: blur(5px);
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    width: 360px;
+    background-color: rgba(var(--semi-white), 0.5);
+    backdrop-filter: blur(5px);
+  }
+
+  .layout {
+    height: 100vh;
+    background: url('/static/background.jpg');
+  }
+}
+
+body[theme-mode='dark'],
+body .semi-always-dark {
+  .layout {
+    filter: brightness(0.8);
+  }
+}

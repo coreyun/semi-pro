@@ -1,0 +1,11 @@
+body,
+body[theme-mode='dark'] .semi-always-light {
+  --semi-black: 0, 0, 0;
+  --semi-white: 255, 255, 255;
+}
+
+body[theme-mode='dark'],
+body .semi-always-dark {
+  --semi-black: 255, 255, 255;
+  --semi-white: 0, 0, 0;
+}
